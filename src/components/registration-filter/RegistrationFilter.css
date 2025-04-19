@@ -1,0 +1,15 @@
+.registration-filter {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-filter select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 222px;
+    margin: 5px 0;
+}

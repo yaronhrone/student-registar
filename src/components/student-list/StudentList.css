@@ -1,0 +1,42 @@
+.student-list {
+    list-style-type: none;
+    padding: 0;
+    min-height: 200px;
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+}
+
+.student-list li {
+    min-width: 250px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-list h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.student-list p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.student-list::-webkit-scrollbar {
+    height: 8px;
+    background-color: #f4f4f4;
+}
+
+.student-list::-webkit-scrollbar-thumb {
+    background-color: #007BFF;
+    border-radius: 4px;
+}
+
+.student-list::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
